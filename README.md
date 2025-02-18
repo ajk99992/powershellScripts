@@ -1,5 +1,9 @@
-If you want to move hundresd of folders from one location to another on the Windows Server or workstation. This script can be used.
+If you want to move hundreds of folders from one location to another on the Windows Server or workstation. This script can be used.
 
 Just update the source and destination location
 
-NOTE : please make sure that your run the powershell in the user mode and not the admin mode as admin's don't have access to the Mapped drive like users
+**NOTE** please make sure that you run the PowerShell in the user mode and not the admin mode as admin don't have access to the Mapped drive like users
+
+
+
+**Important** If the folder path or file path is too long then, they might be skipped.
